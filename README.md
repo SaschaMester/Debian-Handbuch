@@ -1,1 +1,13 @@
 # Debian-Handbuch
+# Debian-Handbuch
+This is a clone of http://debian-handbuch.de/,
+downloaded using 'wget --mirror' and uploaded here
+as a Git Repository.  
+  
+
+It's published under the terms of CC-by-SA 3.0 and
+GNU General Public License v2 or later.  
+  
+  
+This is the german edition of the Debian GNU/Linux
+Administration Handbook - in HTML Format. 
