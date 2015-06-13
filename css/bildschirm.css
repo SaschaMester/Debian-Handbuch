@@ -1,0 +1,169 @@
+
+/* ======================================
+  1. Kalibrierung und Restauration
+  ====================================== */
+/* Reset - alle Abstände auf NULL */
+*  { padding: 0; margin: 0; }
+/* optional: erzwingt Scrollbar im Firefox */
+html { height: 100%; margin-bottom: 1px; }
+h2, p, ul, ol { margin-bottom: 1em; }
+ul ul { margin-bottom: 0; }
+li { margin-left: 1em ; }
+/* hier ggfs. Abstände für weitere Elemente restaurieren */
+
+/* ======================================
+  2. Allgemeine Styles
+  ====================================== */
+body {
+  background-color: #8c8c8c;
+  color: white;
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: small; 
+}
+h1 { font-size: 150%; }
+h2 { font-size: 130%; } 
+address {
+  text-align: center;
+  font-size: 80%;
+  font-style: normal;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+a { 
+  text-decoration: none; 
+  /* outline: none; */ /* nur wenn es Sie wirklich stört */
+} 
+a:link { color:#FF0000; } 
+a:visited { color:#FF0000; } 
+a:hover { color:#0080FF; }
+a:focus { 
+  
+}
+a:active { 
+  
+}
+/* Allgemeine Klassen und IDs */ 
+img#logo { 
+  
+}
+/* Skiplink ausblenden */
+.skiplink { 
+  position: absolute; 
+  top: -9999px; 
+  left: -9999px; 
+  width: 0; 
+  height: 0; 
+  font-size: 0; 
+  line-height: 0; 
+}
+
+/* ======================================
+  3.  Styles für die Layoutbereiche
+  ====================================== */
+#wrapper { 
+  background-color: white; 
+  color: black; 
+  width: 720px; 
+  margin: 10px auto; 
+}
+#kopfbereich {
+  background-color: #5F8EDC;
+  color: white;
+  padding: 10px 20px 0 20px;
+}
+  #kopfbereich p {
+    padding: 5px 0 5px 0; 
+    margin-bottom: 0;
+  }
+  div#kopfbereich p span {
+     
+  }
+  #kopfbereich img {
+    margin-left: 20px;
+	float:right;
+        border:solid 2px;
+	
+      
+  }
+#navibereich { 
+  text-align: right; 
+  color: black;
+  background-color: #5F8EDC;
+  padding: 5px 10px 4px 10px;  
+  border-bottom: 1px solid #8c8c8c;
+} 
+  #navibereich ul { margin-bottom: 0; } 
+  #navibereich li {
+    display: inline; 
+    list-style-type: none; 
+    margin: 0;
+  }
+  #navibereich a ,
+  #navibereich strong { 
+    color: black;
+    background-color: #D4E1F7; 
+    padding: 4px 8px 4px 8px; 
+    border: 1px solid #8c8c8c;
+  } 
+  #startseite #navi01 a,
+  #kontaktseite #navi02 a,
+  #faq #navi03 a, 
+  #translate #navi04 a { 
+    color: black; 
+    background-color: white; 
+    border-bottom-color: white; 
+  } 
+
+  #navibereich a:hover,
+  #navibereich a:focus { 
+    color: black; 
+    background-color: white; 
+    border-bottom-color: white;      
+  } 
+  #navibereich a:active {
+    color: black; 
+    background-color: white; 
+    border-bottom-color: white;  
+  }  
+  
+#textbereich { 
+  padding: 20px 10px 20px 20px; 
+}
+  #textbereich a { 
+   
+}
+  #textbereich a:hover,
+  #textbereich a:focus { 
+    
+  }
+#fussbereich {
+  padding: 10px 20px 20px 20px;
+  border-top: 1px solid #8c8c8c; 
+  margin-top: 0; 
+}
+
+/* Das Kontaktformular */
+form {
+  background-color: #eee;
+  width: 370px;
+  padding: 20px;
+  border: 1px solid #8c8c8c;
+}
+label {
+  display: block;
+  cursor: pointer;
+}
+input#absender,
+textarea {
+  width: 300px;
+  border: 1px solid #8c8c8c;
+  margin-bottom: 1em;
+}
+textarea {
+  height: 7em;
+}
+input:focus,
+textarea:focus {
+  background-color: #d9d9d9;
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="de" xmlns="http://www.w3.org/1999/xhtml" lang="de"><head>
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <title>Kontaktseite - Hinterlasst uns eine Nachricht</title>
+  <link href="css/bildschirm.css" rel="stylesheet" type="text/css" media="screen">
+  <link href="css/druckversion.css" rel="stylesheet" type="text/css" media="print">      
+</head><body id="kontaktseite" onload="document.kontaktformular.absender.focus();">
+<div id="wrapper">
+
+<div id="kopfbereich">
+<img src="openlogo-50.png" width="50" height="61" border="1" alt="Debian">
+<h1>Debian Handbuch</h1>
+<p>Wir &uuml;bersetzen "The Debian Administrator's Handbook!"</p>
+</div> <!-- Ende kopfbereich -->
+
+<div id="navibereich">
+<ul>
+  <li id="navi01"><a href="index.html">Startseite</a></li>
+  <li id="navi02"><a href="kontakt.html">Kontakt</a></li>
+  <li id="navi03"><a href="faq.html">FAQ</a></li>
+  <li id="navi04"><a href="translate.html">Übersetzen</a></li>
+</ul> 
+</div> <!-- Ende navibereich -->
+
+<div id="textbereich">
+<h2>Kontaktseite</h2>
+
+<form id="kontaktformular" name="kontaktformular" action="http://www.formular-chef.de/fc.cgi" method="post">
+<input name="empfaenger" value="webseite@debian-handbuch.de" type="hidden">
+<div>
+  <label for="absender">Ihre E-Mail-Adresse:</label>
+  <input id="absender" name="absender" type="text">
+</div>
+<div>
+  <label for="nachricht">Ihre Nachricht: </label>
+  <textarea id="nachricht" name="nachricht" cols="20" rows="5"></textarea>
+</div>
+<div>
+  <input value="Abschicken" type="submit">
+</div>
+</form>
+<br /><p>
+<h3>Ohne Angabe einer Mailadresse kann ich Euch nur in den seltensten  Fällen antworten! </h3></p>
+</div> <!-- Ende textbereich -->
+
+<div id="fussbereich"> 
+<address>
+<a href="http://www.debian-handbuch.de/">Debian Handbuch</a> 
+</address>
+</div> <!-- Ende fussbereich -->
+
+</div> <!-- Ende wrapper -->
+</body></html>
